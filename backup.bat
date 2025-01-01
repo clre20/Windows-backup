@@ -71,9 +71,6 @@ if !usedSpace! gtr !drive_max! (
 
 ) else (
     echo 硬碟容量充足，執行備份
-    REM 設定路徑
-    set SOURCE_PATH=D:\
-    set DEST_PATH=E:\copy\copy
 
     REM 生成時間戳
     for /f "tokens=2 delims==" %%i in ('wmic os get localdatetime /value') do set datetime=%%i

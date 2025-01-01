@@ -79,9 +79,7 @@ if !usedSpace! gtr !drive_max! (
 
 ) else (
     echo 硬碟容量充足，執行備份
-    REM 設定路徑
-    set SOURCE_PATH=D:\
-    set DEST_PATH=E:\copy\copy
+    
     pause
 
     REM 生成時間戳
